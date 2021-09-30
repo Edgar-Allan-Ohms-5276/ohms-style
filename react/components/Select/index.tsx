@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from "react"
+import React from "react"
 import { useId } from "../../lib/useId"
 
 export default function Select(props: React.DetailedHTMLProps<React.SelectHTMLAttributes<HTMLSelectElement>, HTMLSelectElement>) {
