@@ -1,6 +1,6 @@
 # HTML Components
 
-These are examples of how to use the styles with components. Remember that  [main.scss](../scss/main.scss) must be imported on the page.
+These are examples of how to use the styles with components. Remember that `main.scss` or `main.css` must be imported on the page.
 
 ## Button
 ```html

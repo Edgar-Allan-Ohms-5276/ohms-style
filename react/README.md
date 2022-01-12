@@ -1,6 +1,6 @@
 # React Components
 
-These are some components to for use in react. They currently require the project to support typescript. Additionally, [main.scss](../scss/main.scss) must be imported on the page.
+These are some components to for use in react. `main.scss.` or `main.css` must be imported on the page.
 
 Other components not part of the React component library can be used as shown in [HTML Components](../html/README.md)
 

@@ -4,16 +4,22 @@ This repo is a collection of stylesheets used by Edgar Allan Ohms projects and r
 
 ## Usage
 
-This project is meant to be included as a git submodule.
+This project is meant to be installed from [npm](https://www.npmjs.com).
 
 ```bash
-git submodule add https://github.com/Edgar-Allan-Ohms-5276/ohms-style.git path/to/desired/location
+npm install @edgar-allan-ohms-5276/ohms-style
 ```
 
-Then, include the `main.scss` file (project must support SASS):
+If your project supports SASS compilation, import the `main.sass` file:
 
 ```javascript
-import "./path/to/ohms-style/scss/main.scss"
+import "ohms-style/scss/main.scss"
+```
+
+Otherwise, import the `main.css` file:
+
+```javascript
+import "ohms-style/scss/main.css"
 ```
 
 Now you can use the components! We currently have documentation for HTML and React (Vue will be added in the future!)

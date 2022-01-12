@@ -1,0 +1,29 @@
+{
+  "name": "@edgar-allan-ohms-5276/ohms-style",
+  "version": "1.0.0",
+  "description": "EAO Stylesheets and Components",
+  "scripts": {
+    "build": "npm run build-sass && npm run build-typescript",
+    "build-sass": "sass ./scss/main.scss ./css/main.css && sass -s compressed ./scss/main.scss ./css/main.min.css",
+    "build-typescript": "tsc",
+    "publish": "npm run build && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/edgar-allan-ohms/ohms-style.git"
+  },
+  "author": "Edgar Allan Ohms 5276",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/Edgar-Allan-Ohms-5276/ohms-style/issues"
+  },
+  "homepage": "https://github.com/Edgar-Allan-Ohms-5276/ohms-style",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "sass": "^1.47.0",
+    "typescript": "^4.5.4"
+  }
+}
