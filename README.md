@@ -22,6 +22,8 @@ Otherwise, import the `main.css` file:
 import "@edgar-allan-ohms-5276/ohms-style/css/main.css"
 ```
 
+It is also highly recommended to include `normalize.css` from https://github.com/necolas/normalize.css/
+
 Now you can use the components! We currently have documentation for HTML and React (Vue will be added in the future!)
 
 | Documentation            |
