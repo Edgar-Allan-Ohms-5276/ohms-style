@@ -13,13 +13,13 @@ npm install @edgar-allan-ohms-5276/ohms-style
 If your project supports SASS compilation, import the `main.sass` file:
 
 ```javascript
-import "ohms-style/scss/main.scss"
+import "@edgar-allan-ohms-5276/ohms-style/scss/main.scss"
 ```
 
 Otherwise, import the `main.css` file:
 
 ```javascript
-import "ohms-style/scss/main.css"
+import "@edgar-allan-ohms-5276/ohms-style/css/main.css"
 ```
 
 Now you can use the components! We currently have documentation for HTML and React (Vue will be added in the future!)

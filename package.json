@@ -1,6 +1,6 @@
 {
   "name": "@edgar-allan-ohms-5276/ohms-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EAO Stylesheets and Components",
   "scripts": {
     "build": "npm run build-sass && npm run build-typescript",
