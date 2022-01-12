@@ -1,12 +1,12 @@
 {
   "name": "@edgar-allan-ohms-5276/ohms-style",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "EAO Stylesheets and Components",
   "scripts": {
     "build": "npm run build-sass && npm run build-typescript",
     "build-sass": "sass ./scss/main.scss ./css/main.css && sass -s compressed ./scss/main.scss ./css/main.min.css",
     "build-typescript": "tsc",
-    "publish": "npm run build && npm publish --access public"
+    "pub": "npm run build && npm publish --access public"
   },
   "repository": {
     "type": "git",
