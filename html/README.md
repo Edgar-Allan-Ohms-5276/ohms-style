@@ -10,6 +10,8 @@ These are examples of how to use the styles with components. Remember that `main
 ```
 
 ## Text Box
+
+**Make sure to include `text-box.js`**
 ```html
 <div class="input-effect">
     <input type="text" class="text-input" />
